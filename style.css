@@ -40,7 +40,7 @@ p {
   color: #f0ffff;
   background: -webkit-radial-gradient(#04245e 0%, rgba(4, 36, 94, 0.3) 70%);
   background: radial-gradient(#04245e 0%, rgba(4, 36, 94, 0.3) 70%);
-  box-shadow: 0 0 30px 2px rgba(240, 255, 255, 0.2);
+  box-shadow: 0 0 50px 10px rgba(240, 255, 255, 0.2);
   -webkit-transition: left 0.3s linear, top 0.3s linear;
           transition: left 0.3s linear, top 0.3s linear; }
 

@@ -1,15 +1,17 @@
-$(init);
+$(function() {
+	$balls = $('.ball');
+	width = $(window).innerWidth() - 80;
+	height = $(window).innerHeight() - 80;
+	init();
+});
 
 var $balls,
 	width,
 	height,
+	mx, my,
 	G = 0.6;
 
 function init() {
-	$balls = $('.ball');
-	width = $(window).innerWidth() - 80;
-	height = $(window).innerHeight() - 80;
-
 	randomize();
 	calc();
 }
@@ -73,5 +75,5 @@ function calc() {
 		});
 	});
 
-	setTimeout(calc, 300);
+	setTimeout(calc, 100);
 }
