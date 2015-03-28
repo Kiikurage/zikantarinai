@@ -1,0 +1,47 @@
+body {
+  background: #000;
+  position: absolute;
+  width: 1024px;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: Georgia; }
+
+p {
+  position: relative;
+  height: 100px;
+  width: 100%; }
+
+.ball {
+  position: absolute;
+  display: block;
+  text-align: center;
+  text-shadow: 0 1px 10px rgba(255, 255, 255, 0.8);
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 100%;
+  color: #f0ffff;
+  background: -webkit-radial-gradient(#04245e 0%, rgba(4, 36, 94, 0.3) 70%);
+  background: radial-gradient(#04245e 0%, rgba(4, 36, 94, 0.3) 70%);
+  box-shadow: 0 0 30px 2px rgba(240, 255, 255, 0.2);
+  -webkit-transition: left 0.3s linear, top 0.3s linear;
+          transition: left 0.3s linear, top 0.3s linear; }
+
+/*# sourceMappingURL=style.css.map */

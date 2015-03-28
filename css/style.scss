@@ -1,0 +1,31 @@
+body {
+ background: #000;
+ position: absolute;
+ width: 1024px;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ font-family: Georgia;
+}
+p {
+ position: relative;
+ height: 100px;
+ width: 100%;
+}
+.ball {
+ position: absolute;
+ display: block;
+ text-align: center;
+ text-shadow: 0 1px 10px rgba(#fff, 0.8);
+ width: 40px;
+ height: 40px;
+ font-size: 30px;
+ padding: 10px;
+ border-radius: 100%;
+ color: #f0ffff;
+ background: radial-gradient(#04245e 0%, rgba(#04245e, 0.3) 70%);
+ box-shadow: 0 0 30px 2px rgba(#f0ffff, 0.2);
+ transition: left 0.3s linear, top 0.3s linear;
+}

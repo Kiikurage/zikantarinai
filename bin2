@@ -1,0 +1,2 @@
+sass ./css/style.scss ./style.css
+autoprefixer ./style.css
